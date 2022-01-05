@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+body{
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+#navber{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    /* background-image: url(); */
+    margin-bottom: 40px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+li a{
+    margin: 10px 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 3px 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+li a:hover{
+    background-color: violet;
+    border-radius: 8px;
+}
+.home{
+    display: flex;
+}
+h1{
+    font-size: 3rem;
+
+}
+h1 span{
+    /* background-image: linear-gradient(rgb(82, 32, 32), green); */
+    color: rgba(206, 90, 230, 0.829);
+}
+h3{
+    margin-top: 60px;
+    /* background: linear-gradient(#e66465, #9198e5);  */
+    color: tomato;
+   
+}
+.first-para{
+    width: 50%;
+    padding-left: 95px;
+    /* background-color: yellowgreen; */
+}
+.first-para img{
+    width: 90%;
+}
+.btn{
+    text-decoration: none;
+    padding:3px 5px;
+    background-color: tomato;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+.btn:hover{
+    background-color: violet;
+}
+/* About section style here  */
+.about{
+    display: flex;
+    margin-top: 120px;
+}
+.new{
+    padding-right: 100px;
+}
+.about img{
+    width: 110%;
+}
+/* This is last pare  */
+
+.last{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.first{
+    border: 3px solid red;
+    margin: 0px 60px;
+    width: 50%;
+}
+footer{
+    align-items: center;  
+    display: flex; 
+    justify-content: center; 
+    padding:10px; margin: 10px 0px;
+}
+.h{
+    padding-left: 61px;
+}
