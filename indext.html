@@ -4,15 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My first portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+        body{
+            font-family: 'Spline Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: whitesmoke;
+        }
+        #navber{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            /* border: 2px solid red; */
+            /* background-image: url(); */
+            margin-bottom: 40px;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            list-style: none;
+        }
+        li a{
+            margin: 10px 15px;
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 3px 5px;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+        }
+        li a:hover{
+            background-color: violet;
+            border-radius: 8px;
+        }
+        .home{
+            display: flex;
+        }
+        h1{
+            font-size: 3rem;
+
+        }
+        h1 span{
+            /* background-image: linear-gradient(rgb(82, 32, 32), green); */
+            color: rgba(206, 90, 230, 0.829);
+        }
+        h3{
+            margin-top: 60px;
+            /* background: linear-gradient(#e66465, #9198e5);  */
+            color: tomato;
+           
+        }
+        .first-para{
+            width: 50%;
+            padding-left: 95px;
+            /* background-color: yellowgreen; */
+        }
+        .first-para img{
+            width: 90%;
+        }
+        .btn{
+            text-decoration: none;
+            padding:3px 5px;
+            background-color: tomato;
+            border-radius: 4px;
+            color: whitesmoke;
+            font-size: 1.4rem;
+        }
+        .btn:hover{
+            background-color: violet;
+        }
+        /* About section style here  */
+        .about{
+            display: flex;
+            margin-top: 120px;
+        }
+        .new{
+            padding-right: 100px;
+        }
+        .about img{
+            width: 110%;
+        }
+        /* This is last pare  */
+
+        .last{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .first{
+            border: 3px solid red;
+            margin: 0px 60px;
+            width: 50%;
+        }
+        footer{
+            align-items: center;  
+            display: flex; 
+            justify-content: center; 
+            padding:10px; margin: 10px 0px;
+        }
+        .h{
+            padding-left: 61px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to</h1>
-    <div><span class="first">Samsul kobir</span> world!</div>
-    <h3>Lorem ipsum dolor sit.</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cupiditate. Sequi, neque adipisci! Provident dolor qui distinctio nulla mollitia molestiae cupiditate voluptatem, dignissimos id soluta quaerat obcaecati voluptas numquam aspernatur cumque ab, non iure?</p>
-    <img src="images/jhankar.png" alt="loading">
+    <header>
+        <nav id="navber">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contac me</a></li>
+                <li><a href="#">Hire me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="first-para">
+            <h1>Welcome to 
+                <br><span>CODEING </span> WORLD!</h1>
+                <h3>About mysefe. what i probite</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam recusandae provident odit vero velit aliquam, pariatur id eaque numquam excepturi magnam rerum ad natus asperiores, deserunt laborum reiciendis ea! Obcaecati, repudiandae. Quam, ipsam.</p>
+            <a class="btn" target="_blank" href="https://www.facebook.com/jiban.ahmed.1069020/">Hire me</a>
+        </div>
+        <div class="first-para">
+            <img src="images/jhankar.png" alt="loading">
+        </div>
+    </section>
+    
+    <!-- home section end here  -->
+    <section class="about">
+        <div class="first-para new">
+            <img src="images/jhankar2.png" alt="">
+        </div>
+        <div>
+            <h1>Future Dream</h1>
+            <h3>My future plan here below</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quidem quam quae molestias architecto veniam totam enim distinctio obcaecati iusto at itaque dolor, necessitatibus voluptatem.</p>
+            <a href="#" class="btn">Downloan resume</a>
+        </div>
+    </section>
 
+    <!-- about section end -->
+
+    <section id="main">
+        <h1 class="h">Experinces</h1>
+        <div class="last">
+
+            <div class="first">
+                <h2>Pro web-developer</h2>
+                <h4>Recent 2022 | Pro developer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, possimus!</p>
+            </div>
+            
+            <div class="first">
+                <h2>Baby web-developer</h2>
+                <h4>Past 2017 | Baby developer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quibusdam adipisci accusantium voluptate nam facilis commodi ad animi velit?</p>
+            </div>
+        </div>
+        </section>
+        <footer>
+            My portfolio 2022&copy;
+        </footer>
 </body>
 </html>
