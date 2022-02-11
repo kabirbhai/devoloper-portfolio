@@ -1,0 +1,28 @@
+{
+  "name": "devoloper-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabirbhai/devoloper-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabirbhai/devoloper-portfolio/issues"
+  },
+  "homepage": "https://github.com/kabirbhai/devoloper-portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.21"
+  },
+  "dependencies": {
+    "vite": "^2.8.1"
+  }
+}
